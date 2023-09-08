@@ -53,9 +53,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-black opacity-50">
             Copyright © 2023 Janri Aps. All rights reserved.
           </p>
-          <p className="font-normal text-[12px] text-black opacity-50">
-            Developed by Alexander Rank Ringgaard
-          </p>
+
 
           <div className="flex gap-4">
           <a href="https://www.linkedin.com/in/jannierankringgaard/">
