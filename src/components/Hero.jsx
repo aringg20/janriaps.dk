@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section id="home" >
+  <section id="hero" >
     <motion.div variants={textVariant(1.1)}>
       <div>
         <div className="mt-10 relative">

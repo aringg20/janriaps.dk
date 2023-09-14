@@ -33,11 +33,12 @@ useEffect( () => {
 })
 
     return (
-        <div className='header'>
+      
+        <div className='header' >
             <nav className='navbar'>
                 <a href='hero' className='logo object-fit: cover'>
                     <img src={logo} alt='logo' className='object-center' />
-                <div>
+                <div id="text-container" class="info">
                     <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80 mt-1">Tel: 30 52 87 41</p>
                     <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80">janriaps@gmail.com</p>
                 </div>
