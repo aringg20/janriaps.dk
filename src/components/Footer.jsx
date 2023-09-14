@@ -1,10 +1,8 @@
 import { motion } from 'framer-motion';
-import { socials } from '../constants';
 import '../index.css';
 import { styles } from '../styles';
 import { footerVariants } from '../utils/motion';
 import { logo, linkedin, facebook, instagram } from '../assets';
-import { Link } from "react-scroll";
 
 const Footer = () => (
   <motion.footer
@@ -16,7 +14,7 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[44px] text-[34px] text-black">
+        <h4 className="font-bold md:text-[34px] text-[24px] text-black">
           Janri Aps
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-brown rounded-[32px] gap-[12px]">
@@ -47,7 +45,7 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-black opacity-10" />
   
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-bold text-[24px] text-black">
+          <h4 className="font-bold text-[18px] text-black">
             Jannie Rank Ringgaard
           </h4>
           <p className="font-normal text-[14px] text-black opacity-50">

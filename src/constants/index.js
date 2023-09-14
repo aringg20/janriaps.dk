@@ -1,4 +1,4 @@
-import { people01, workshop, academic, chat, people02, people03, efteruddannelse, hr, kurser, kontakt, jannie, goldline, facebookpng, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, email, web, backend, creator, mobile,  } from "../assets";
+import { workshop, academic, chat, efteruddannelse, hr, kurser, facebook, instagram, linkedin, twitter, send, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -26,21 +26,18 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
     title: "Rewards",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
-    icon: shield,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
-    icon: send,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
@@ -93,25 +90,6 @@ export const socials = [
   },
 ];
 
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
 
 
 export const services = [

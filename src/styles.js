@@ -15,14 +15,14 @@ const styles = {
     marginY: "sm:my-16 my-6",
 
     heroHeadText:
-    "font-black text-brown lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
+    "font-black text-brown lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[25px] lg:leading-[98px] mt-2",
     heroSubText:
-    "text-[#c59c79] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+    "text-[#c59c79] font-medium lg:text-[20px] sm:text-[18px] xs:text-[15px] text-[15px] lg:leading-[40px]",
 
     sectionHeadText:
-    "text-brown font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] font-poppins",
+    "text-brown font-black md:text-[40px] sm:text-[30px] xs:text-[25px] text-[20px] font-poppins",
     sectionSubText:
-    "sm:text-[25px] text-[20px] text-black uppercase tracking-wider font-poppins",
+    "sm:text-[20px] text-[16px] text-black uppercase tracking-wider font-poppins",
   };
   
   export const layout = {

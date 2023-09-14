@@ -186,3 +186,8 @@
   background: #c59c79;
   filter: blur(150px);
 }
+
+.positioned {
+  width: 100%;
+  margin-left: 385px;
+}

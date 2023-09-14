@@ -1,7 +1,7 @@
 import { styles } from './styles';
 import { Navbar, Hero, Boxes, Footer, Kontakt, Om, Services, Kurser } from './components';
 import React from 'react';
-import { Link } from "react-scroll";
+
 
 
 

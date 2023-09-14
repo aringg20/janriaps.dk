@@ -16,7 +16,7 @@ const Om = () => {
         </motion.div>
 
 
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-black text-[17px] max-w-3xl leading-[30px] font-poppins">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
           Jeg er en erfaren rådgiver med HR og ledelseskompetencer, og har desuden et indgående kendskab til
           arbejdsmarkedet og beskæftigelsesområdet samt kompetenceudvikling. De seneste år har jeg arbejdet
           med salgs- og forretningsudvikling herunder opkvalificeringsforløb målrettet hotel- og
