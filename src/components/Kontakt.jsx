@@ -47,7 +47,7 @@ const Kontakt = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Tak! Du hører fra mig snarest muligt.");
+         
 
           setForm({
             firstname: "",

@@ -1,5 +1,4 @@
 import React from 'react';
-import { styles } from '../styles';
 import portrait from '../assets/portrait.png';
 import {TypeAnimation} from 'react-type-animation';
 import '../index.css';
@@ -40,9 +39,9 @@ const Hero = () => (
                 </h2>
           </div>  
           <div className='mt-40'>
-                <h4 className="font-poppins font-semibold leading-[55px] flex-1 relative ss:text[32px] text-black text-[30px] text-block">
+                <h4 className="font-poppins font-semibold leading-[55px] flex-1 ss:text[32px] text-black text-[30px] text-block">
                   Velkommen til Janri ApS</h4>
-                <p className='mt-20 font-poppins leading-[22px] flex-1 relative ss:text[16px] text-black text-[16px] text-block'>
+                <p className='mt-20 font-poppins leading-[22px] flex-1 ss:text[16px] text-black text-[16px] text-block'>
                   Din specialist i bæredygtige og økonomisk fordelagtige løsninger
                   til kompetenceudvikling og efteruddannelse. Med et indgående kendskab til
                   arbejdsmarkedet og beskæftigelsesområdet samt mange års erfaring indenfor HR og

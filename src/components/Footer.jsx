@@ -36,7 +36,7 @@ const Footer = () => (
           />
           
           <span className="font-normal text-[16px] text-white">
-            Tel: +45 30 52 87 41 
+           +45 30 52 87 41 
           </span>
         </button>
       </div>

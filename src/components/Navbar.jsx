@@ -1,10 +1,10 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import { logo } from '../assets';
-import { navLinks } from '../constants';
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
+
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -39,7 +39,7 @@ useEffect( () => {
                 <a href='hero' className='logo object-fit: cover'>
                     <img src={logo} alt='logo' className='object-center' />
                 <div id="text-container" class="info">
-                    <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80 mt-1">Tel: 30 52 87 41</p>
+                    <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80 mt-1">+45 30 52 87 41</p>
                     <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80">janriaps@gmail.com</p>
                 </div>
                 </a>
@@ -51,13 +51,13 @@ useEffect( () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Hjem</Link>
+                        <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Hjem</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Ydelser</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="kurser" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Kurser</Link>
+                        <Link to="kurser" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Kurser & Workshops</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="om" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Om</Link>

@@ -54,18 +54,6 @@
     display: none;
 }
 
-#wrapper {
-	position: absolute;
-	display: flex;
-	flex-direction: row;
-}
-
-
-#text-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-}
 
 
 @media screen and (max-width:940px) {

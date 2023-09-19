@@ -35,7 +35,7 @@ const ProjectCard = ({ index,
           return (
             <div className='nav-item'>
             <Link to="kontakt" spy={true} smooth={true} offset={-100} duration={500}>
-              <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}  className="bg-slate-50 p-5 rounded-2xl sm:w-[360px] w-full mt-10"
+              <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}  className="bg-slate-50 p-5 rounded-2xl justify-evenly sm:w-[360px] w-full mt-10"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgb(0, 0, 0)"}}
@@ -49,7 +49,7 @@ const ProjectCard = ({ index,
   
                     </div>
                     <div className="mt-5 text-black ">
-                      <h3 className="text-black font-bold text-[20px] font-poppins">{name}</h3>
+                      <h3 className="text-black font-semibold text-[20px] font-poppins">{name}</h3>
                       <p className="mt-2 text-brown text-[16px] font-poppins">{description}</p>
                     </div>
               </motion.div></Link>
@@ -62,9 +62,9 @@ const ProjectCard = ({ index,
       return (
         <section id="boxes">
         
-        <div class="positioned">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-60 text-black text-[25px] max-w-3xl leading-[5px] font-poppins ">
-          Lad mig være din partner i...
+        <div class="">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-60 text-black text-[25px] textcursive max-w-3xl leading-[5px] font-poppins rounded-2xl justify-evenly sm:w-[360px] w-full">
+          Lad os være din partner i...
           </motion.p>
           </div>
           <div className="flex flex-wrap gap-5">

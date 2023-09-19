@@ -20,9 +20,9 @@ const styles = {
     "text-[#c59c79] font-medium lg:text-[20px] sm:text-[18px] xs:text-[15px] text-[15px] lg:leading-[40px]",
 
     sectionHeadText:
-    "text-brown font-black md:text-[40px] sm:text-[30px] xs:text-[25px] text-[20px] font-poppins",
+    "text-brown font-black md:text-[35px] sm:text-[25px] xs:text-[20px] text-[18px] font-poppins",
     sectionSubText:
-    "sm:text-[20px] text-[16px] text-black uppercase tracking-wider font-poppins",
+    "sm:text-[18px] text-[15px] text-black uppercase tracking-wider font-poppins",
   };
   
   export const layout = {

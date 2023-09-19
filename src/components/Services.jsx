@@ -6,6 +6,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { Link } from "react-scroll";
+import "../index.css";
 
 
 
@@ -60,42 +61,48 @@ useEffect( () => {
       <>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>En indgang - dit behov:</p>
-          <h2 className={styles.sectionHeadText}>Hvad tilbyder jeg?</h2>
+          <h2 className={styles.sectionHeadText}>Hvad tilbyder vi?</h2>
         </motion.div>
 
-
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
-        Udgangspunktet er altid din virksomhed og dine behov og ønsker.
-        Vi leverer en komplet plan for kompetenceudvikling, hvor vi tager hånd om alt det
-        tidstunge administrative arbejde og sammensætter et skræddersyet opkvalificeringsforløb,
-        som er fuldstændig tilpasset din virksomhed eller organisation. I samspil finder vi
-        løsninger, som sikrer din virksomheds udvikling og økonomiske interesser, hvor
-        ”omkostningerne” til efter- videreuddannelse bliver mindst muligt
-        Vi mener, at kompetenceudvikling er afgørende for at skabe vækst og udvikling i
-        samfundet og dermed din virksomhed. Udvikling af medarbejdere øger fastholdelse af
-        medarbejdere og giver et positivt image, som gør rekruttering lettere. Økonomisk er
-        efteruddannelse ofte fordelagtigt - retning og forståelse for kompetenceløft gør gode
-        medarbejdere bedre.
-        Vores rådgivning er kendetegnet ved handlekraft, integritet og oprigtig nysgerrighed, og vi
-        hylder det enkle og fleksible. Vi er yderst professionelle og tænker på bundlinjeeffekt. Med
-        Janri ApS som din passionerede og effektive sparringspartner kan du være sikker på at
-        opnå vækst og udvikling i din virksomhed.
-        Kontakt os i dag, så vi kan tage en uforpligtende snak om dine behov og ønsker.
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-2 text-black text-[17px] max-w-3xl leading-[25px] font-semibold font-poppins">
+          Vores rådgivning er kendetegnet ved handlekraft, integritet og oprigtig nysgerrighed, og vi hylder det enkle og fleksible.
+          Vi er yderst professionelle og tænker på bundlinjeeffekt.
         </motion.p>
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-10 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
+          Vi tilbyder HR support, workshop og inspirationsoplæg med professionel sparring primært til hotel- og
+          restaurationsbranchen.
+          I samspil sikrer vi din virksomheds udvikling med medarbejdernes rette kompetencer ved bl.a at sætte
+          kompetenceudvikling på den strategiske plan.
+          Vi leverer en komplet plan for kompetenceudvikling. Det betyder, at du kan få sparring og assistance fra A-
+          Z i hele processen - både hvad angår medarbejder involvering og den konkrete afdækning af kurser og
+          efteruddannelses muligheder samt den tidstunge administrative byrde dette ofte medfører.
+
+          Vores udgangspunkt er at sammensætte et skræddersyet opkvalificeringsforløb, som er fuldstændig tilpasset
+          din virksomhed eller organisation, hvor omkostningerne til efter- videreuddannelse bliver minimeret mest
+          muligt.
+          I samspil finder vi løsninger, som sikrer din virksomheds udvikling og økonomiske interesser.
+          Du får dermed frigivet tid til at fokusere på dine kerneydelser, da udgangspunktet er din virksomhed og
+          dine behov og ønsker. Samtidig betaler du kun for de services, som du har brug for – enkelt og fleksibelt
+          uden faste omkostninger.
+        </motion.p>
+
+
+   
         
-        <div className='nav-item'>
-          <Link to="kontakt" spy={true} smooth={true} offset={-100} duration={500}>
-        <button type="button" className="mt-10 flex items-center h-fit py-4 px-6 bg-brown rounded-[32px] gap-[12px]">
-          <span className="font-semibold text-[16px] text-white">
-            Kontakt
-          </span>
-        </button></Link>
-        </div>
+
 
         <div className="mt-20 flex flex-wrap gap-10">
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service}/>
           ))}
+        </div>
+        <div className='nav-item'>
+          <Link to="kontakt" spy={true} smooth={true} offset={-100} duration={500}>
+        <button type="button" className="mt-5 flex items-center h-fit py-4 px-6 bg-brown rounded-[32px] gap-[12px]">
+          <span className="font-semibold text-[16px] text-white">
+            Kontakt
+          </span>
+        </button></Link>
         </div>
 
       </>

@@ -29,17 +29,23 @@ const Kurser = () => {
       return () => window.removeEventListener('scroll', handleScroll)
   })
   return (
-    <div className="mt-12 bg-transparent font-poppins">
+    <div className="mt-10 bg-transparent font-poppins">
         <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Skræddersyet oplæg:</p>
           <h2 className={styles.sectionHeadText}>Kurser & Workshops</h2>
         </motion.div>
-
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-2 text-black text-[17px] max-w-3xl leading-[25px] font-semibold font-poppins">
+          Inspirationsoplæg, workshops og kurser der sætter den danske madkultur på dagsordenen.
+        </motion.p>
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-10 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
+          I samarbejde med Lone K. Jørgensen tilbyder vi oplæg og kurser indenfor kost og ernæringsområdet, som naturligvis er indviduelt afstemt
+          og tilpasset virksomhedens, institutionens eller foreningens konkrete målgruppe. 
+        </motion.p>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
-        Inspirationsoplæg og kurser som sætter den danske madkultur på dagsordenen
-        I samarbejde med Lone K Jørgensen tilbyder jeg oplæg og kurser indenfor kost og
-        ernæringsområdet, som naturligvis er individuelt afstemt og tilpasset virksomhedens,
-        institutionens eller foreningens konkrete målgruppe.
-
+          Lone er en erfaren og dedikeret underviser, som altid sætter en ære i at formidle med et smil og glimt i øjet uden at kompromis med læring og praksisnær
+          udbytte. 
+          Lone er uddannet ernæringsassistent og har desuden en administrationsbachelor.
+          Derudover har hun en solid og mangeårig erfaring som underviser, og har også arbejdet med kostplanlægning med alle målgrupper.
         </motion.p>
         <div className='nav-item'>
           <Link to="kontakt" spy={true} smooth={true} offset={-100} duration={500}>

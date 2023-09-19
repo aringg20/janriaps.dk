@@ -2,7 +2,7 @@ import { workshop, academic, chat, efteruddannelse, hr, kurser, facebook, instag
 
 export const navLinks = [
   {
-    id: "home",
+    id: "hero",
     title: "Hjem",
   },
   {
@@ -109,7 +109,8 @@ export const services = [
 
 export const projects = [
   {
-    name: "Efteruddannelse og opkvalificering",
+    
+    name: "Kompetenceløft & Udvikling",
     description:
      "Vi leverer en komplet plan for kompetenceudvikling, hvor vi tager hånd om alt det tidstunge administrative arbejde og sammensætter et skræddersyet opkvalificeringsforløb, som er fuldstændig tilpasset din virksomhed eller organisation. I samspil finder vi løsninger, som sikrer din virksomheds udvikling og økonomiske interesser, hvor ”omkostningerne” til efter- videreuddannelse bliver mindst muligt.",
     tags: [
@@ -129,7 +130,7 @@ export const projects = [
     image: efteruddannelse,
   },
   {
-    name: "HR-Support",
+    name: "Sparring & Support",
     points: [
       "Skræddersyet og fleksibel serviceløsning til HR-assistance",
       "Sparring og hjælp til kompetenceafklaring, medarbejdertrivsel og MUS samtaler",
@@ -155,7 +156,7 @@ export const projects = [
     image: hr,
   },
   {
-    name: "Kurser & Workshops",
+    name: "Samspil & Læring",
     description:
       "Inspirationsoplæg, workshops og kurser der sætter den danske madkultur på dagsordenen. I samarbejde med Lone K. Jørgensen tilbyder vi oplæg og kurser indenfor kost og ernæringsområdet, som naturligvis er individuelt afstemt og tilpasset virksomhedens, institutionens eller foreningens konkrete målgruppe.",
     tags: [
