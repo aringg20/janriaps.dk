@@ -69,7 +69,7 @@ useEffect( () => {
           Vi er yderst professionelle og tænker på bundlinjeeffekt.
         </motion.p>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-10 text-black text-[15px] max-w-3xl leading-[30px] font-poppins">
-          Vi tilbyder HR support, workshop og inspirationsoplæg med professionel sparring primært til hotel- og
+          Vi tilbyder HR support, workshops og inspirationsoplæg med professionel sparring primært til hotel- og
           restaurationsbranchen.
           I samspil sikrer vi din virksomheds udvikling med medarbejdernes rette kompetencer ved bl.a at sætte
           kompetenceudvikling på den strategiske plan.
@@ -77,7 +77,7 @@ useEffect( () => {
           Z i hele processen - både hvad angår medarbejder involvering og den konkrete afdækning af kurser og
           efteruddannelses muligheder samt den tidstunge administrative byrde dette ofte medfører.
 
-          Vores udgangspunkt er at sammensætte et skræddersyet opkvalificeringsforløb, som er fuldstændig tilpasset
+          Udgangspunktet er at sammensætte et skræddersyet opkvalificeringsforløb, som er fuldstændig tilpasset
           din virksomhed eller organisation, hvor omkostningerne til efter- videreuddannelse bliver minimeret mest
           muligt.
           I samspil finder vi løsninger, som sikrer din virksomheds udvikling og økonomiske interesser.
