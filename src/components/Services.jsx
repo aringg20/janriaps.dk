@@ -1,13 +1,13 @@
 import React, { useState, useEffect} from 'react';
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
+import { motion, AnimatePresence } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { Link } from "react-scroll";
 import "../index.css";
-
+import ServiceCardItems from './ServiceCardItems';
 
 
 
@@ -32,7 +32,6 @@ const ServiceCard = ({ index, title, icon }) => {
     </Tilt>
   )
 }
-
 
 const Services = () => {
 

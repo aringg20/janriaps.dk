@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    height: 150px;
+    height: 115px;
     width: 100%;
     top: 0;
     left: 0;
@@ -26,7 +26,8 @@
 }
 
 .header .navbar img {
-    width: 200px;
+    width: 170px;
+    margin-top: 10px;
     height: auto;
 }
 
@@ -54,6 +55,15 @@
     display: none;
 }
 
+.navbarlogo a {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media screen and (max-width:940px) {
@@ -97,7 +107,19 @@
 }
 
 
+.navbarlogoplace {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
 
+.navbarlogotext {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1000px;
+    margin-top: 0px;
+}
 
 
 

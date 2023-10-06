@@ -35,20 +35,26 @@ useEffect( () => {
     return (
       
         <div className='header' >
+           
             <nav className='navbar'>
-                <a href='hero' className='logo object-fit: cover'>
-                    <img src={logo} alt='logo' className='object-center' />
-                <div id="text-container" class="info">
-                    <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80 mt-1">+45 30 52 87 41</p>
-                    <p className="flex-1 text-center font-poppins text-[12px] text-brown opacity-80">janriaps@gmail.com</p>
-                </div>
-                </a>
+              
+             
+                    <div class="info">
+                        <img src={logo} alt="logo" className=""/>    
+                        <div>
+                                               
+                            <p className="flex-1 text-center font-semibold font-poppins text-[11px] text-brown opacity-80">+45 30 52 87 41</p>
+                            <p className="flex-1 text-center font-semibold font-poppins text-[11px] text-brown opacity-80">janriaps@gmail.com</p>
+                        </div>
+                    </div>
+     
+               
 
-                <div className='hamburger' onClick={handleClick}>
+            <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#c59c79' }} />)
                         : (<FaBars size={30} style={{ color: '#c59c79' }} />)}
+            </div>
 
-                </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
                         <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Hjem</Link>

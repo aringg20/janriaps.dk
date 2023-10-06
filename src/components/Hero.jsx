@@ -11,7 +11,7 @@ const Hero = () => (
     <motion.div variants={textVariant(1.1)}>
       <div>
         <div className="mt-10 relative">
-          <img src={portrait} alt="portrait" className='mt-20 w-full sm:h-[400px] h-[300px] object-cover z-10'/>
+          <img src={portrait} alt="portrait" className=' w-full sm:h-[400px] h-[300px] object-cover z-10'/>
         </div>
           <div>
               <h2 className="flex-1 font-poppins font-semibold
