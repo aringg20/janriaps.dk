@@ -63,7 +63,7 @@ const ProjectCard = ({ index,
         <section id="boxes">
         
         <div class="">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-60 text-black text-[25px] textcursive max-w-3xl leading-[5px] font-poppins rounded-2xl justify-evenly sm:w-[360px] w-full">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-80 text-black text-[25px] textcursive max-w-3xl leading-[5px] font-poppins rounded-2xl justify-evenly sm:w-[360px] w-full">
           Lad os være din partner i...
           </motion.p>
           </div>

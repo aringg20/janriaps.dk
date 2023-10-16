@@ -16,11 +16,11 @@ const Hero = () => (
           <div>
               <h2 className="flex-1 font-poppins font-semibold
               ss:text-[35px] text-[35px] text-black ss:leading-[60px]
-              leading-[45px] text-block absolute max-w-3xl">
+              leading-[45px] absolute w-full h-full">
                 Kompetenceudvikling Skaber 
                 <br className=""/> {" "}
 
-                <span className="text-brown">
+                <span className="text-brown flex-1 w-full h-full">
                 <TypeAnimation
                   sequence={[
                     'Vækst.', 
@@ -38,10 +38,10 @@ const Hero = () => (
                 </span> {" "}
                 </h2>
           </div>  
-          <div className='mt-40'>
+          <div className='margintopctrl'>
                 <h4 className="font-poppins font-semibold leading-[55px] flex-1 ss:text[32px] text-black text-[30px] text-block">
                   Velkommen til Janri ApS</h4>
-                <p className='mt-20 font-poppins leading-[22px] flex-1 ss:text[16px] text-black text-[16px] text-block'>
+                <p className='margintopvelkommen font-poppins leading-[22px] flex-1 ss:text[16px] text-black text-[16px] text-block'>
                   Din specialist i bæredygtige og økonomisk fordelagtige løsninger
                   til kompetenceudvikling og efteruddannelse. Med et indgående kendskab til
                   arbejdsmarkedet og beskæftigelsesområdet samt mange års erfaring indenfor HR og
